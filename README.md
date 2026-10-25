@@ -2,7 +2,7 @@
 
 **Turns Alteryx workflows into plain-English migration assessments for Amazon Redshift: what each workflow does, how hard it is to rebuild in SQL, which logic won't translate cleanly, and what to do about it.**
 
-**[Try the live demo](https://alteryx-migration-analyzer.streamlit.app/)** · samples included, no install needed
+**[Try the live demo](https://alteryx-redshift-workflow-analyzer.streamlit.app/)** · samples included, no install needed
 
 **[Watch the 2-minute demo](https://www.youtube.com/watch?v=DiiojtaZb7U)**
 
@@ -83,8 +83,8 @@ All 5 AI explanations passed the citation check. Testing also surfaced a real ri
 Requires Python 3.11 or newer.
 
 ```bash
-git clone https://github.com/FaizaLag/alteryx-migration-analyzer.git
-cd alteryx-migration-analyzer
+git clone https://github.com/FaizaLag/alteryx-to-redshift-workflow-analyzer.git
+cd alteryx-to-redshift-workflow-analyzer
 python -m venv .venv
 .venv\Scripts\Activate.ps1        # Windows; on Mac/Linux: source .venv/bin/activate
 pip install -r requirements.txt
@@ -150,6 +150,6 @@ Built by **Faiza Laghrari**, Senior Data Analytics Consultant. I turn messy data
 - **Data quality:** automated checks on inbound and outbound files, reconciliation, migration risk assessment
 - **AI-assisted analytics:** tools like this one, where code extracts the facts and AI explains them
 
-**20+ years in data, with deep experience in healthcare and benefits.** I've built and automated data processes for Fortune 500 clients in SAS and Alteryx, including HR, payroll, and third-party vendor files, and delivered dashboards and reporting pipelines in Redshift, QuickSight, and Tableau.
+**25+ years in data, with deep experience in healthcare and benefits.** I've built and automated data processes for Fortune 500 clients in SAS and Alteryx, including HR, payroll, and third-party vendor files, and delivered dashboards and reporting pipelines in Redshift, QuickSight, and Tableau.
 
 [LinkedIn](https://www.linkedin.com/in/faiza-laghrari) · [Upwork](https://www.upwork.com/freelancers/~017170247a35786650)
