@@ -1,4 +1,4 @@
-# Alteryx Migration Analyzer
+# alteryx-to-redshift-workflow-analyzer
 
 **Turns Alteryx workflows into plain-English migration assessments for Amazon Redshift: what each workflow does, how hard it is to rebuild in SQL, which logic won't translate cleanly, and what to do about it.**
 
