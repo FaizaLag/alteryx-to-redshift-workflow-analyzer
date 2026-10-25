@@ -1,4 +1,4 @@
-"""Generate synthetic test data for the Alteryx Migration Analyzer.
+"""Generate synthetic test data for the Alteryx-to-Redshift Workflow Analyzer.
 
 All data is invented. No real people, organizations, or codes.
 Run: python tests/generate_test_data.py  (writes CSVs to tests/data/)

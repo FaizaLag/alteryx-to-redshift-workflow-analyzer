@@ -1,4 +1,4 @@
-"""Alteryx Migration Analyzer: web app.
+"""Alteryx-to-Redshift Workflow Analyzer: web app.
 
 Run from the project folder:   streamlit run app.py
 """
