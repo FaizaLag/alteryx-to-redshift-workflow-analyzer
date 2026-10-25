@@ -27,7 +27,7 @@ SAVED_AI = Path("outputs/ai")
 DEMO = os.getenv("DEMO_MODE", "").strip().lower() in ("1", "true", "yes")
 COLORS = {"low": "#2e7d4f", "medium": "#c99a1a", "high": "#b02a37"}
 
-st.set_page_config(page_title="Alteryx Migration Analyzer", page_icon="🔎", layout="wide")
+st.set_page_config(page_title="Alteryx-to-Redshift Workflow Analyzer", page_icon="🔎", layout="wide")
 
 
 @st.cache_resource
@@ -81,7 +81,7 @@ def run_ai(result):
 
 # ---------- page ----------
 
-st.title("Alteryx Migration Analyzer")
+st.title("Alteryx-to-Redshift Workflow Analyzer")
 st.caption("Scores how hard an Alteryx workflow is to rebuild in Amazon Redshift SQL, flags the logic "
            "that won't translate cleanly, and explains it in plain English.")
 
